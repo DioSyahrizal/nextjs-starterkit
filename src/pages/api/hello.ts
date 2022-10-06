@@ -1,13 +1,9 @@
-/* eslint-disable comma-dangle */
-import type { NextApiRequest, NextApiResponse } from 'next';
+import api from '../../utils/api/api';
 
-type Data = {
-  name: string;
-};
+const handler = api().get(async (_, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'application/json');
+  res.end(JSON.stringify({ status: 'ok', data: 'Pong!' }));
+});
 
-export default function handler(
-  _req: NextApiRequest,
-  res: NextApiResponse<Data>
-) {
-  res.status(200).json({ name: 'John Doe' });
-}
+export default handler;
