@@ -1,12 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next JS Starter Kit
+
+## Prerequisite
+
+To set up and run this project, make sure you have the following prerequisites installed:
+
+- Node JS 16 or above
+- Yarn (package manager)
+- Code editor (e.g., VS Code, Vim, JetBrains, etc.)
+- Spirit for learning 🙂
+- Stack
+- This project is built using the following technologies:
+
+## Pre-installed
+
+- Typescript
+- React
+- [Tailwind CSS](https://tailwindcss.com/)
+- [next-connect](https://github.com/hoangvvo/next-connect)
+- Unit Test Ready [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- Linting with Husky [ESLint](https://eslint.org/), [Prettier](https://prettier.io/) and [Husky](https://typicode.github.io/husky/#/)
+
+```
+Please refer to the original Next.js README for additional information on using Next.js.
+```
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
